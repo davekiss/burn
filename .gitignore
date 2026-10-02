@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+.pytest_cache/
+*.mp4
+*.mov
+*.words.json
+*.burn.json
+*.ass
