@@ -1,0 +1,11 @@
+{
+  "name": "burn",
+  "version": "0.1.0",
+  "description": "Burn one-word-at-a-time captions into a video: local transcription, a real proofread, and a check of the finished render. Needs the burn CLI.",
+  "author": { "name": "Dave Kiss", "url": "https://github.com/davekiss" },
+  "homepage": "https://github.com/davekiss/burn",
+  "repository": "https://github.com/davekiss/burn",
+  "license": "MIT",
+  "keywords": ["video", "captions", "subtitles"],
+  "skills": ["./src/burn/skill"]
+}

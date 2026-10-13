@@ -39,6 +39,13 @@ uv tool install git+https://github.com/davekiss/burn
 burn skill install
 ```
 
+In Claude Code, you can install the skill as a plugin instead of running `burn skill install`:
+
+```
+/plugin marketplace add davekiss/mods
+/plugin install burn@davekiss
+```
+
 That installs the `burn` command and a Claude Code skill that teaches Claude the workflow. Then ask Claude to caption a video.
 
 You'll need [uv](https://docs.astral.sh/uv/) and `ffmpeg` built with libass (`brew install ffmpeg` has it). The first transcription downloads Whisper large-v3-turbo (about 1.6 GB). After that, two minutes of speech takes about 30 seconds.
